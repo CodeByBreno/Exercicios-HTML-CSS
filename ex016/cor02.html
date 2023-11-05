@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gradiente em CSS</title>
+    <style>
+        /*Seletor Global - aplica-se à tudo no site*/
+        * {
+            background-size: cover;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+        }
+        
+        body{
+            background-image:linear-gradient(45deg, #DB0071, #DBC30F, #16C5DB);
+            background-attachment: fixed; /* Mantém o mesmo degradê, sem fragmentação da tela */
+        }
+
+        #mainBlock{
+            background-color: white;
+            border-radius: 2%;
+            padding: 20px;
+            width: 800px;
+        }
+
+        #radialGradient,
+        #linearGradient,
+        #percentGradient{
+            color: white;
+            float: left;
+            margin: 10px;
+            width: 200px;
+            height: 200px;
+        }
+
+        #radialGradient{
+            background-image: radial-gradient(circle, #7dcfb6, #00b2ca, #1d4e89);
+        }
+
+        #linearGradient{
+            background-image: linear-gradient(to right, blue, red);
+        }
+
+        #percentGradient{
+            background-image: linear-gradient(to top, #f4ac45 70%, #a61c3c);
+        }
+
+        #majorBlock::after{
+            content: "";
+            display: table;
+            clear: both;
+        }
+    </style>
+</head>
+<body>
+    <div id="mainBlock">
+        <h1>Testando Gradiente</h1>
+        <p>Modifique o attributo <em>background-image</em>, atribuindo à ele o resultado da função CSS "linear-gradient". Essa recebe alguns parâmetros:</p>
+        <dl>
+            <dt>
+                Direção do Gradiente
+            </dt>
+            <dd>Pode ser dada como "to right" (sempre use o "to" e depois a direção) ou com graus, como 90 deg (degrees)</dd>
+            <dt>Cor Inicial</dt>
+            <dd>É a primeira cor do gradiente. Para compô-lo, você precisa de no mínimo duas cores</dd>
+            <dt>Cor Secundária</dt>
+            <dd>É a segunda cor do gradiente. Tem que ter no mínimo essas duas</dd>
+            <dt>Outras Cores</dt>
+            <dd>Se quiser, pode adicionar mais cores depois dessas</dd>
+        </dl>
+
+        <p>Existem algumas opções para gradiente: O linear (a gradação é composta em uma única direção) e o Radial (parte do centro) (devem existir outras opções, mas agora só estudei essas)</p>
+        <div id="majorBlock">
+            <div id="linearGradient">linear</div>
+            <div id="radialGradient">radial</div>
+            <div id="percentGradient">percent</div>
+        </div>
+    </div>
+</body>
+</html>

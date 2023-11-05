@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Paleta de Cores</title>
+    <style>
+        body{
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+        }
+
+        .colorBox{
+            float: left;
+            width: 150px;
+            height: 100px;
+            margin: 10px;
+        }
+
+        #mainBlock{
+            width: 800px;
+            text-align: justify;
+        }
+
+    </style>
+</head>
+<body>
+    <h1>Exemplo de uma Paleta de Cores abaixo: </h1>
+    <hr>
+    <div id="mainBlock">
+        <p>Se uma cor é dada por hsl(150, 100%, 50%), então seu complemento deve ter tom (HUE) igual à 150 + 128 (pois se o complemento é o oposto, e existem 256 valores possíveis para o HUE, então para "inverter" seu valor, somamos "meio ciclo", ou seja, 128 - metade de 256 - )<br>
+        Para tomar uma cor análoga, podemos dividir os 256 valores de HUE em conjuntos de 12 cores, o que significa que teremos um intervalo de 21 valores entre cada cor. Se o tom tomado for centralizado no intervalo, então o primeiro tom seria cerca de 10 (ou 11), o segundo, 31, o terceiro 52, e assim adiante. <br>Logo, os adjacentes à cor original seriam 150 - 21 e 150 + 21, de maneira grosseira, ou 147 - 21 e 147 + 21 (tomando o multiplo de 21 mais próximo de 150). Portanto, o HUE dos tons análogos valerá <strong>126 e 168.</strong> Idealmente, teríamos que colocar 147 ao invés de 150, para deixar tudo no mesmo padrão. Mas vou deixar como está, para ilustrar. <br>Com isso, a paleta construída será a abaixo:</p>
+    </div>
+    <div class="colorBox" style="background-color: hsl(150, 100%, 50%);">Base</div>
+    <div class="colorBox" style="background-color: hsl(28, 100%, 50%);">Complementar</h1></div>
+    <div class="colorBox" style="background-color: hsl(126, 100%, 50%);">Análoga 1</div>
+    <div class="colorBox" style="background-color: hsl(168, 100%, 50%);">Análoga 2</div>
+</body>
+</html>

@@ -1,0 +1,15 @@
+@charset "UTF-8";
+
+p{
+    font-style: italic;
+    text-decoration: underline;
+    font-size: 1.5em;
+}
+
+h1{
+    /* Shorthand */
+    /* Obedeça a ordem */
+    /* font-style font-weight font-size font-family*/
+
+    font: italic bolder 3em Arial, sans-serif;
+}

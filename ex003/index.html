@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+    <header>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <title>Terceiro Exercicio</title>
+    </header>
+    <body>
+
+        <h1>Símbolos e Emojis no seu Site!</h1>
+        <hr> <!-- Cria uma linha divisória de conceitos -->
+
+        <!-- Sério, se quiser muito espaçamento, nunca use <br><br><br> ... -->
+
+        <p>Vamos adicionar alguns símbolos especiais: <br>
+            &reg; -- Marca registrada <br>
+            &copy; -- Copyright <br>
+            &trade; -- TM no alto - sinceramente n sei direito o que isso significa <br>
+            &euro; -- Símbolo da Moeda Euro <br>
+            &pound; -- Símbolo da Libra Esterlina <br>
+            &yen; -- Símbolo do Iene Japonês <br>
+            &cent; -- Sei lá o que é isso, outro símbolo ai <br>
+            &delta; -- Delta Minusculo <br>
+            &Delta; -- Delta Maiscul, o legal é que só muda a primeira letra <br>
+            &uparrow; -- Seta para cima <br>
+            &uarr; -- Forma simplificada da Seta para cima <br>
+            Outros simbolos estão descritos no PDF
+        </p>        
+        <p>
+            Agora vamos adicionar alguns emojis: <br>
+            Para isso, poderíamos só copiar e colar da web - consultando o EmojiPedia, por exemplo <br>
+            O grande problema é que isso não é compatível com todos os navegadores, então não é <br>
+            a abordagem mais recomendada <br>
+            Daí, o mais interessante é usar o código UTF-8 do emoji. Para apresentado, usamos o formato: <br>
+            <br>
+            & # x código_UTF-8
+            <br><br>
+            (tem que colocar tudo junto, separei para que o navegador não entenda como um caractere especial)<br>
+            (note que é um código em hexadecimal)<br>
+            <br>
+            Por exemplo, <br>
+            - &#x1FAE1 (UTF-8 = 1FAE1)
+            - &#X1F979 (UTF-8 = 1F979)
+            - &#x1F60E (UTF-8 = 1F60E)
+            - &#x1F608 (UTF-8 = 1F608)
+        </p>
+    </body>
+
+</html>

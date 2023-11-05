@@ -1,0 +1,33 @@
+@charset "UTF-8";
+
+@font-face {
+    font-family: 'Rubik';
+    src: url('assets/fontes/Rubik-VariableFont_wght.ttf') format('truetype');
+}
+
+body{
+    font-family: 'Rubik', sans-serif;
+    color: #3D405B;
+    text-align: center;
+    background-color: #81B29A;
+}
+
+.card{
+    display: inline-block;
+    font-size: 40px;
+    background-color: #F4F1DE;
+    border: 5px solid #3D405B;
+    width: 100px;
+    height: 100px;
+    margin: 10px;
+}
+
+.card:hover{
+    height: 500px;
+    background-color: #F2CC8F;
+}
+
+.card:active{
+    height: 500px;
+    background-color: #E07A5F;
+}

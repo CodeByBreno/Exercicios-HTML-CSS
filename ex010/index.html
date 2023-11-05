@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mexendo com Listas</title>
+    <style>
+        .mainColumn{
+            float: left;
+            padding-left: 30px;
+        }
+
+        #tituloInicial{
+            text-align: center;
+        }
+
+        body{
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            background-color: #F5F5DC;
+        }
+
+        #initialBlock::after {
+            content: "";
+            display: table;
+            clear: both; /* Isso garante que nada flutue à esquerda ou à direita das colunas */
+        }
+    </style>
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+</head>
+<body>
+    <h1 id="tituloInicial">Trabalhando com Listas</h1>
+    <hr>
+    <div id="initialBlock">
+        <h2>Listas Ordenadas, Não Ordenadas e Mistas</h2>
+        <div class="mainColumn">
+            <h3>Listas Ordenadas (OL)</h3>
+            <p>São aquelas onde a ordem faz a diferença</p>
+            <ol type="I">
+                <li>Segunda-Feira</li>
+                <li>Terça-Feira</li>
+                <li>Quarta-Feira</li>
+                <li>Quinta-Feira</li>
+                <li>Sexta-Feira</li>
+                <li>Sábado</li>
+                <li>Domingo</li>
+            </ol>
+            <h3>Listas Não Ordenadas (UL)</h3>
+            <p>São aquelas onde a ordem não importa</p>
+            <p>
+                Lista com as principais ideologias políticas:
+            </p>
+            <ul type="square">
+                <li>Liberalismo</li>
+                <li>Conservadorismo</li>
+                <li>Socialismo</li>
+                <li>Social-democracia</li>
+                <li>Centro</li>
+                <li>Social-Liberalismo</li>
+                <li>Monarquismo</li>
+            </ul>
+        </div>
+        <div class="mainColumn">
+            <h3>Minhas Linguagens Favoritas</h3>
+            <ol>
+                <li>Antigas</li>
+                <ol type="i">
+                    <li>Clipper</li>
+                    <li>Fortran</li>
+                    <li>Visual Basic</li>
+                    <li>Delphi</li>
+                </ol>
+                <li>Novas</li>
+                <ol type="i" start="5">
+                    <li>PHP</li>
+                    <li>Python</li>
+                    <li>JavaScript</li>
+                    <li>Kotlin</li>
+                </ol>
+            </ol>
+        </div>
+        <div class="mainColumn">
+            <h3>Meus Jogos Favoritos</h3>
+            <ol>
+                <li>Para PC</li>
+                <ul type="square">
+                    <li>Warcraft III</li>
+                    <li>Undertale</li>
+                    <li>A Hat in Time</li>
+                    <li>Ot's de Tibia</li>
+                    <li>Poketibias</li>
+                    <li>Plants vs Zombies</li>
+                    <li>Megaman X 4/5/6/8</li>
+                </ul>
+                <li>Nintendo Wii</li>
+                <ul type="square">
+                    <li>The Legend of Zelda: Twilight Princess</li>
+                    <li>The Legend of Zelda: Skyward Sword</li>
+                    <li>Mario Kart Wii</li>
+                    <li>Mario Galaxy</li>
+                </ul>
+                <li>GBA</li>
+                <ul type="square">
+                    <li>Megaman Zero</il>
+                        <ul type="circle">
+                            <li>Zero 1</li>
+                            <li>Zero 2</li>
+                            <li>Zero 3</li>
+                            <li>Zero 4</li>
+                        </ul>
+                    <li>The Legend of Zelda: Minish Cap</li>
+                    <li>Pokemon Emerald</li>
+                </ul>
+                <li>Celular</li>
+                <ul type="square">
+                    <li>Pokemon Go</li>
+                    <li>Brawl Stars</li>
+                    <li>Plants vs Zombies 2</li>
+                    <li>Swordigo (KKKK)</li>
+                </ul>
+            </ol>
+        </div>
+    </div>
+
+    <h2>Lista de Definição</h2>
+    <p>É como um dicionário. Você tem pares chave-valor</p>
+    <dl>
+        <dt>HTML</dt>
+        <dd>Linguagem de Marcação responsável por <strong>marcar</strong> os elementos presentes em um site, atribuindo-os de <strong>significado</strong></dd>
+        <dt>CSS</dt>
+        <dd>Linguagem de Marcação responsável por <strong>marcar</strong> elementos de um site para aplicar <strong>estilos</strong> à ele</dd>
+        <dt>JavaScript</dt>
+        <dd>Linguagem de Programação usada em <strong>scripts</strong> para o site. Permite as <strong>interações</strong> com o usuário</dd>        
+    </dl>
+
+
+</body>
+</html>

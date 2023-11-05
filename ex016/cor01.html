@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Como colocar Cores no CSS</h1>
+    <hr>
+    <h2 style="background-color: blue; color: white">Representando Cores pelo Nome</h2>
+    <p>Basta colocar como valor do parêmetro o nome da cor em inglês</p>
+
+    <h2 style="background-color: #2244FF; color: #BBBBBB">Representando Cores por Código Hexadecimal</h2>
+    <p>Basta colocar o código hexadecimal na forma #XXXXXX (6 dígitos após o #). Os valores simbolizam a intensidade de cada componente RGB. A intensidade varia de 0 a 256, ou 00 à FF em Hexadecimal. Para cada cor, na ordem R-G-B, temos 2 dígitos hexadecimais representando sua intensidade.
+    </p>
+
+    <h2 style="background-color: rgb(20,60,250); color: rgb(220, 220, 220);">Representando Cores por Código RGB</h2>
+    <p>Nesse caso o valor é dado usando a Função CSS " rgb (RED, GREEN, BLUE) ". No lugar de RED, GREEN e BLUE vc deve colocar um valor decimal equivalente à intensidade de cada cor (indo de 0 à 256)</p>
+
+    <h2 style="background-color: hsl(240, 70%, 50%); color: hsl(40, 0%, 100%);">Representando Cores por Código HSL</h2>
+    <p>HSL é uma sigla que representa três componentes essenciais de uma cora - Matiz(Tom), Saturação e Luminosidade. É usado com a função CSS " hsl (HUE, SATURATION, LIGHTNESS) " onde HUE é um numero de 0 a 256 e representa o tom da cor (verde, amarelo, azul, etc). SATURATION é uma porcentagem de 0% à 100% e representa a saturação da cor (o que pura, intensa, ela é) e LIGHTNESS também é um porcentagem de 0% à 100%, representando o brilho da cor (mais escura ou mais clara, respectivamente).
+    </p>
+
+    <h2 style="background-color: hsla(140, 100%, 50%, 0.768); color: hsl(0, 0%, 1%)">Usando o VS Code ao nosso favor</h2>
+    <p>Basta passar o mouse por cima do texto da cor que o VS code abre um gerenciador de cores completo. Clique na parte superior (onde está escrito RGB) que ele muda a representação para diferentes sistemas - RGB, Hexadecimal, HSL, etc -<br>Além disso, também é possível selecionar a transparência</p>
+
+</body>
+</html>

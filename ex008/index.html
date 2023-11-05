@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <header>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Formatação de Textos</title>
+    </header>
+    <body>
+        <h1>Principais Formatações</h1>
+        <hr>
+        <h2>Negrito / Destaque</h2>
+        <p>
+            Nessa frase temos um termo em <b>negrito</b> usando a tag &lt;b&gt;<br>
+            Essa é uma tag não semântica, ou seja, apenas modifiquei a forma do texto, <br>
+        sem atribuir um significado à isso. Logo, é uma tag indesejada no HTML<br>
+        </p>
+        <p>
+            O que seria ide al então? Bom, geralmente o negrito é apenas um <br>
+            <strong>texto em destaque</strong>, portanto a tag HTML deve ilustrar<br>
+            esse significado, o de destacar texto. Para isso, existe a tag &lt;strong&gt;<br>
+        </p>
+
+        <p>Para <i>itálico</i>, existe a tag não semântica &lt;i&gt;</p>
+        <p>mas podemos fazer isso usando a <em>tag semântica de enfâse</em> : &lt;em&gt;</p>
+    
+        <h2>Texto Marcado</h2>
+        <p>Agora vamos ver como <mark>marcar um texto</mark></p>
+        <p>Não tem como marcar com outra cor além da amarela <mark style="background-color: rgb(137, 251, 238);">sem usar CSS</mark></p>
+    
+        <h2>Texto Grande e Pequeno</h2>
+        <p>
+            Podemos tornar um <big>texto grande</big> ou <small>pequeno</small> usando as tags &lt;big&gt; e &lt;small&gt;<br>
+            A tag "big" se tornou obsoleta, mas a "small" não <br><br>
+            Uma explicação para isso é que "letras miúdas" ou "pequenas" <br>
+            possuem significado semântico em uma série de contextos, como <br>
+            contratos, notas de rodapé, legendas, e etc<br>
+            Porém um texto grande, a principio, não. Se for um título, use <br>
+            as tags &lt;h&gt;, se for um destaque/negrito, a tag &lt;strong&gt;, etc
+        </p>
+
+        <h2>Texto Deletado/Excluido</h2>
+        <p>Texto que deve ser lido mas desconsiderado<br>
+        basicamente é um risco no texto<br>
+        <del>por exemplo, esse aqui</del><br>
+        fica entre tags &lt;del&gt;</p>
+
+        <h2>Texto Inserido</h2>
+        <p>Texto incluido para dar uma enfâse e indicar que ele <br>
+        ele foi adicionado depois<br>
+        <ins>por default, é basicamente um sublinhado</ins><br>
+        existe também um sublinhado com a tag &lt;u&gt;, que é obsoleta<br>
+        por ser não semântica
+        </p>
+
+        <h2>Texto Sobrescrito</h2>
+        <p>É aquele texto voando. Tipo a potência do x em x<sup>2</sup>+3</p>
+        <p>Para isso, use a tag &lt;sup&gt;</p>
+
+        <h2>Texto Subescrito</h2>
+        <p>É o texto embaixo, tipo o 2 de H<sub>2</sub>O</p>
+        <p>Para isso, use a tag &lt;sub&gt;</p>
+    </body>
+</html>

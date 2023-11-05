@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vídeos com HTML5</title>
+</head>
+<body style="background-color: black; color: white; font-family: Verdana, Geneva, Tahoma, sans-serif;">
+    <h1 style="background-color: blue;">Inserindo Videos Hospedados localmente</h1>
+    <hr>
+    <h2 style="background-color: blue;">Esse vídeo está hospedado no meu próprio servidor</h2>
+    <video width="500" poster="imagens/limoes-capa.png" controls>
+        <source src="midia/limao-mp4.mp4" type="video/mp4">
+        <source src="midia/limao-mkv.mkv" type="video/mkv">
+        <source src="midia/limao-webm.webm" type="video/webm">
+        <source src="midia/limao-ogv.ogv" type="video/ogg">
+        <p>Seu navegador não é compatível com esse vídeo</p>
+    </video>
+
+    <h2 style="background-color: blue;">Agora vamos incorporar um video do YouTube</h2>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/_MVt0FXovmI"></iframe>
+    <p>Como você ver <em>inspecionando o elemento</em>, temos essencialmente uma tag nova (&lt;iframe&gt;)<br>
+    e nela colocamos como "src" o link para o vídeo. Contudo, essa não é a maneira ideal de compartilhar<br>
+    vídeos do YouTube. Ao acessar o video, podemos apertar em <strong>compartilhar</strong> e escolher<br>
+    a opção "incorporar", que gerará um código com a tag <em>iframe</em> mais completo e adequado</p>
+
+    <p>Observe isso abaixo. Agora podemos colocar o video em fullscreen, por exemplo, devido às opções habilitadas<br>
+    também foi permitida a opção de "picture in picture" e outras</p>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/_MVt0FXovmI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
+    <h2 style="background-color: blue;">Agora um vídeo do Vimeo</h2>
+    <p>Para compartilhar videos de outros lugares, siga o mesmo esquema. Clica em "Compartilhar" e então "Incorporar"<br>
+    O Vimeo é uma ferramenta de hospedagem e compartilhamento de vídeos. Ela é paga, e você compra o direito de armazenar até<br>
+    uma certa quantidade de arquivos (GB's, TB's, etc). A principal vantagen de usar Hospedagens Externas ao invés de Internas<br>
+    é que não há qualquer custo por visualização do video pelo usuário (pelo menos a principio). Fica a cargo da hopedadora<br>
+    (Youtube, Vimeo, etc) pagar pelos acessos que recebe. Você só pagará para armazenar o conteúdo nos respectivos sites</p>
+    <iframe title="vimeo-player" src="https://player.vimeo.com/video/783454485?h=f8c325f0c3" width="640" height="360" frameborder="0"    allowfullscreen></iframe>
+</body>
+</html>
