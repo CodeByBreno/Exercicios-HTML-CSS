@@ -1,4 +1,4 @@
-![1](https://github.com/user-attachments/assets/ea634da1-dfd6-4e82-a890-6e43003e5d70)# 🌐📚 Exercícios de HTML e CSS
+# 🌐📚 Exercícios de HTML e CSS
 
 Este repositório contém alguns exercícios de **HTML5** e **CSS3** que fiz enquanto acompanhava o curso do Gustavo Guanabara. Os exercícios ficam mais interessantes a partir do **exercício 19**.
 
@@ -68,14 +68,14 @@ listas, titulos, uso de imagens, vídeos, aúdio e afins
 </p>
 
 <p align="center">
-  <img src="https://github.com/user-attachments/assets/44dd3ae4-ef0d-466d-88cc-a1f3df186434" width=450 height="500">
-  <img src="https://github.com/user-attachments/assets/7130b13f-eceb-40d6-9f5f-8824565739a5" width=450 height="500">
+  <img src="https://github.com/user-attachments/assets/44dd3ae4-ef0d-466d-88cc-a1f3df186434" width=400 height="350">
+  <img src="https://github.com/user-attachments/assets/7130b13f-eceb-40d6-9f5f-8824565739a5" width=400 height="350">
 </p>
 
 <p align="center">
-  <img src="https://github.com/user-attachments/assets/626747f4-29d7-4bdc-9d60-af0aa722f263" width=260 height="330">
-  <img src="https://github.com/user-attachments/assets/22d60416-69ba-4870-8a7c-e48c5117b213" width=260 height="330">
-  <img src="https://github.com/user-attachments/assets/e20c5dbb-ab9d-4321-a8f2-3da8e2eb18a0" width=260 height="330">
+  <img src="https://github.com/user-attachments/assets/626747f4-29d7-4bdc-9d60-af0aa722f263" width=260 height="280">
+  <img src="https://github.com/user-attachments/assets/22d60416-69ba-4870-8a7c-e48c5117b213" width=260 height="280">
+  <img src="https://github.com/user-attachments/assets/e20c5dbb-ab9d-4321-a8f2-3da8e2eb18a0" width=260 height="280">
   <p align="center">Exercício 12. Usando a tag source para redimensionara a imagem automaticamente com base no espaço disponível em tela</p>
 </p> 
 
@@ -87,9 +87,9 @@ listas, titulos, uso de imagens, vídeos, aúdio e afins
 Nessa parte foi feito um estudo sobre cores, tipografia e organização de elementos em tela usando CSS
 
 <p align="center">
-  <img src="https://github.com/user-attachments/assets/28a2943e-8938-49b7-9c03-b45ae6a1927d" width=260 height="330">
-  <img src="https://github.com/user-attachments/assets/a9ad98b9-3b6e-4c0e-8408-f4fb086f1901" width=260 height="330">
-  <img src="https://github.com/user-attachments/assets/0fd0fd1e-fc59-4c34-bdc0-78d515519709" width=260 height="330">
+  <img src="https://github.com/user-attachments/assets/28a2943e-8938-49b7-9c03-b45ae6a1927d" width=260 height="260">
+  <img src="https://github.com/user-attachments/assets/a9ad98b9-3b6e-4c0e-8408-f4fb086f1901" width=260 height="260">
+  <img src="https://github.com/user-attachments/assets/0fd0fd1e-fc59-4c34-bdc0-78d515519709" width=260 height="260">
 </p>
 
 <p align="center">
