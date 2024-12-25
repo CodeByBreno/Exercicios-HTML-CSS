@@ -46,21 +46,21 @@ Aqui foram praticados alguns conceitos básicos, como uso de tags sintáticas, o
 listas, titulos, uso de imagens, vídeos, aúdio e afins
 
 <p align="center">
-  <img src="https://github.com/user-attachments/assets/ffd49a06-c64d-4caf-a3f4-c985f4e2c918" width=300 height="380">
-  <img src="https://github.com/user-attachments/assets/eab0f512-cd78-41dd-8958-853c70f62f0d" width=300 height="380">
-  <img src="https://github.com/user-attachments/assets/de3c4109-dd35-4781-b2a7-30fc14792734" width=300 height="380">
+  <img src="https://github.com/user-attachments/assets/ffd49a06-c64d-4caf-a3f4-c985f4e2c918" width=260 height="330">
+  <img src="https://github.com/user-attachments/assets/eab0f512-cd78-41dd-8958-853c70f62f0d" width=260 height="330">
+  <img src="https://github.com/user-attachments/assets/de3c4109-dd35-4781-b2a7-30fc14792734" width=260 height="330">
 </p>
 
 <p align="center">
-  <img src="https://github.com/user-attachments/assets/6d01e618-7e9f-40af-8592-89fdb9735890" width=280 height="500">
-  <img src="https://github.com/user-attachments/assets/fe81d448-1592-4c4e-a4c3-b25bd11b9a22" width=280 height="500">
-  <img src="https://github.com/user-attachments/assets/bc3c1604-527a-4081-a3a5-180300c82ef6" width=280 height="500">
+  <img src="https://github.com/user-attachments/assets/6d01e618-7e9f-40af-8592-89fdb9735890" width=260 height="330">
+  <img src="https://github.com/user-attachments/assets/fe81d448-1592-4c4e-a4c3-b25bd11b9a22" width=260 height="330">
+  <img src="https://github.com/user-attachments/assets/bc3c1604-527a-4081-a3a5-180300c82ef6" width=260 height="330">
 </p>
 
 <p align="center">
-  <img src="https://github.com/user-attachments/assets/f67ed3c7-54df-423d-b8ad-08efd4741b29" width=280 height="500">
-  <img src="https://github.com/user-attachments/assets/b0a36cf1-9134-4ae0-8e38-12caeee1d409" width=280 height="500">
-  <img src="https://github.com/user-attachments/assets/f76be3ca-ad0e-45e3-b7b7-c14983fe220b" width=280 height="500">
+  <img src="https://github.com/user-attachments/assets/f67ed3c7-54df-423d-b8ad-08efd4741b29" width=260 height="330">
+  <img src="https://github.com/user-attachments/assets/b0a36cf1-9134-4ae0-8e38-12caeee1d409" width=260 height="330">
+  <img src="https://github.com/user-attachments/assets/f76be3ca-ad0e-45e3-b7b7-c14983fe220b" width=260 height="330">
 </p>
 
 <p align="center">
@@ -73,9 +73,9 @@ listas, titulos, uso de imagens, vídeos, aúdio e afins
 </p>
 
 <p align="center">
-  <img src="https://github.com/user-attachments/assets/626747f4-29d7-4bdc-9d60-af0aa722f263" width=280 height="500">
-  <img src="https://github.com/user-attachments/assets/22d60416-69ba-4870-8a7c-e48c5117b213" width=280 height="500">
-  <img src="https://github.com/user-attachments/assets/e20c5dbb-ab9d-4321-a8f2-3da8e2eb18a0" width=280 height="500">
+  <img src="https://github.com/user-attachments/assets/626747f4-29d7-4bdc-9d60-af0aa722f263" width=260 height="330">
+  <img src="https://github.com/user-attachments/assets/22d60416-69ba-4870-8a7c-e48c5117b213" width=260 height="330">
+  <img src="https://github.com/user-attachments/assets/e20c5dbb-ab9d-4321-a8f2-3da8e2eb18a0" width=260 height="330">
   <p align="center">Exercício 12. Usando a tag source para redimensionara a imagem automaticamente com base no espaço disponível em tela</p>
 </p> 
 
@@ -87,9 +87,9 @@ listas, titulos, uso de imagens, vídeos, aúdio e afins
 Nessa parte foi feito um estudo sobre cores, tipografia e organização de elementos em tela usando CSS
 
 <p align="center">
-  <img src="https://github.com/user-attachments/assets/28a2943e-8938-49b7-9c03-b45ae6a1927d" width=280 height="500">
-  <img src="https://github.com/user-attachments/assets/a9ad98b9-3b6e-4c0e-8408-f4fb086f1901" width=280 height="500">
-  <img src="https://github.com/user-attachments/assets/0fd0fd1e-fc59-4c34-bdc0-78d515519709" width=280 height="500">
+  <img src="https://github.com/user-attachments/assets/28a2943e-8938-49b7-9c03-b45ae6a1927d" width=260 height="330">
+  <img src="https://github.com/user-attachments/assets/a9ad98b9-3b6e-4c0e-8408-f4fb086f1901" width=260 height="330">
+  <img src="https://github.com/user-attachments/assets/0fd0fd1e-fc59-4c34-bdc0-78d515519709" width=260 height="330">
 </p>
 
 <p align="center">
@@ -101,7 +101,7 @@ Nessa parte foi feito um estudo sobre cores, tipografia e organização de eleme
 </p>
 
 <p align="center">
-  <img src="https://github.com/user-attachments/assets/9fad06a6-a155-4958-8b36-5c12c76bda20" width=280 height="500">
-  <img src="https://github.com/user-attachments/assets/175f3a29-50a7-4bab-9eb6-38fe23f86c2d" width=280 height="500">
-  <img src="https://github.com/user-attachments/assets/d52684d8-1286-451e-938d-d0307bd5a4c1" width=280 height="500">
+  <img src="https://github.com/user-attachments/assets/9fad06a6-a155-4958-8b36-5c12c76bda20" width=260 height="330">
+  <img src="https://github.com/user-attachments/assets/175f3a29-50a7-4bab-9eb6-38fe23f86c2d" width=260 height="330">
+  <img src="https://github.com/user-attachments/assets/d52684d8-1286-451e-938d-d0307bd5a4c1" width=260 height="330">
 </p>
